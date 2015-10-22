@@ -1,0 +1,40 @@
+# my ideas 
+
+# githubranking
+  github 上项目排名
+  人物排名 这个项目是做人物排名的https://github.com/vdaubry/github-awards.git
+
+
+# json-server
+  https://github.com/typicode/json-server.git 
+
+
+# json-key
+  json-key是一个网页程序，她可以将你的RESTful api 的JSON 字典中提取出key。方便你写自己的bean
+
+
+# 树莓派项目 
+  树莓派每天下载自己在家想推送的视频，
+  可以新建一个git仓库每次推送上去下载地址再不同文件中
+  树莓派就会下载响应的内容，视频音频或者是网页新闻
+
+
+# cheat pro 
+  优化cheat命令 使其更适合自己
+
+
+# 加密
+  加密目录以及目录里边内容的程序
+  - 可以加密目录或者单独的文件
+  - 可以设置账户网络同步
+  - 支持多个平台
+
+# Android sdk api
+  可以再手机上查看api的APP
+
+
+# nodejs android api APP
+  nodejs 4.0 官方提供了一个文件的json接口，这将是一个优美的nodejs api APP
+
+  
+

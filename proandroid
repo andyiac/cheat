@@ -1,0 +1,38 @@
+# PRO ANDROID
+
+# 要达到不用查文档的地步直接翻翻SDK中的sourcecode就直接能上手的地步
+
+# 熟读Android SDK 
+- Activity系列
+- Service 系列
+
+# 熟读JAVA SDK
+
+# 熟读常用类库SDK
+
+
+# ========= NOTE ===========
+每天看哪个类需要记录下来循序渐进，有规律复习
+
+# 2015-09-06
+Service 
+- bound Service
+- DreamService
+
+
+
+# read opensource project 
+https://github.com/DrKLO/Telegram
+
+# xml 布局中layout_width layout_height，这些属性是从哪儿拿到的。?
+
+
+# view 的onclick 事件是如何分发的。?????
+
+
+# proandroid
+https://github.com/tangqi92/Android-Tips
+
+
+# action bar 
+http://stackoverflow.com/questions/22192291/how-to-change-the-status-bar-color-in-android

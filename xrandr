@@ -1,0 +1,7 @@
+# xrandr 
+
+# DP2 above lvds1
+xrandr --output DP2 --above LVDS1 --auto
+
+# DP2 right of lvds1
+xrandr --output DP2 --right-of LVDS1 --auto

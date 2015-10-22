@@ -1,0 +1,23 @@
+# nodejs
+
+# from http://hackr.io 
+http://nodetuts.com/
+
+# express study link
+http://www.expressjs.com.cn/
+
+# Install 
+download source code from nodejs.org then unzip ,follow README
+sudo apt-get install npm
+
+# resource
+http://www.nodecloud.org/
+http://nodebeginner.org/index-zh-cn.html
+
+# json-server 
+Get a full fake REST API with zero coding in less than 30 seconds (seriously)
+https://github.com/typicode/json-server
+
+# app.set('port’, process.env.PORT || 80);
+环境变量要是设置了PORT，那么就用环境变量的PORT。比如可以使用下面命令指定端口号：
+PORT=8080 node app.js

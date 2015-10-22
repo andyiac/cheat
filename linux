@@ -1,0 +1,121 @@
+# andyiac linux tools && tips 
+
+# for dev todo 
+todo 
+
+# oh-my-zsh
+install zsh first then install oh-my-zsh
+
+# cheat 不知道命令怎么用不仅可以问man 也可以问 cheat！
+https://github.com/chrisallenlane/cheat/
+
+# ubuntu 一直发烫 
+去bios 里变关闭独立显卡只用集显温度降低不少
+
+# 应用管理软件　
+APP GRID
+
+# 系统设置
+http://ubuntu-tweak.com/
+
+# 黑客帝国屏保
+cmatrix
+
+# linux wifi setting
+github wifi 
+
+# 屏幕亮度调节小工具
+xbacklight -dec 10
+
+for my own script 
+
+	#!/bin/bash
+	#config screen light!
+	XBACKLIGHT_CFG="${HOME}/.xbacklight.conf"
+	if [[ $# -eq 0 ]]; then
+   	   	xbacklight -set $(sed -n '1p' ${XBACKLIGHT_CFG})
+	else
+   	   	xbacklight $1 $2 
+   		xbacklight > ${XBACKLIGHT_CFG}
+	fi
+
+then use :
+xlight -20
+xlight +20
+
+# fileManager 
+ranger
+
+# ubuntu 解决依赖不足的问题
+sudo aptitude install mysql-client
+
+# mysql
+清空数据库某个表中的所有数据
+delete from tablename;
+
+# shell explain online 
+http://explainshell.com
+
+# Shadowsocks-Qt5
+ss-qt5
+
+# 挂载硬盘
+修改 /etc/fstab 文件
+# <file system> <mount point> <type> <options> <dump>  <pass>
+/dev/sdb1 /media/sdb1 ntfs utf8,uid=1000,gid=1000, umask=000 0 0
+
+关于权限mask的设置采用数字式的，同样第一个数字表示所有者的权限mask，
+第二个数字表示群组的权限mask，第三个数字表示其他用户的权限mask，
+如果umask=000，就表示不屏蔽任何用户的任何权限，即所有用户具有读、
+写和执行权限，再例如fmask=033，就表示文档所有者具有读、写和执行
+权限，而群组和其他用户只具有读取的权限，而屏蔽了权限3（1和2之和）
+
+# linux UML 工具
+DIA
+
+# linux calculator
+bc
+
+# 命令行输出直接复制到粘贴板中
+xclip -selection clipboard
+xclip -o
+
+# Dash
+程序员的的好帮手 管理代码片段
+
+# 双显示器配置
+先使用xrandr查看现在的设备
+再使用以下命令使外接显示器生效
+xrandr --output DP2 --right-of LVDS1 --auto
+
+# kill -9 pid
+KILL 9 这个信号之所以被称为“强杀”，就是因为无法改变进程收到这个信号后所执行的动作，进程只能退出。
+
+# explainshell
+http://www.explainshell.com
+
+# email client 
+geary
+
+# music 
+Rhythmbox
+
+# k4dirstat 
+sudo apt-get install kdirstat
+
+########
+
+操作系统
+
+# >> 
+重定向操作可以讲文件追加到另一个文件中的尾部。
+cat a.txt
+aaaa
+
+cat b.txt
+bbbb
+
+cat a.txt >> b.txt
+cat b.txt
+aaaa
+bbbb
