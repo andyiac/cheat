@@ -1,38 +1,57 @@
 # PRO ANDROID
+Android进阶笔记和思考随录
 
-# 要达到不用查文档的地步直接翻翻SDK中的sourcecode就直接能上手的地步
-
-# 熟读Android SDK 
+# 要达
+- 到不用查文档的地步直接翻翻SDK中的sourcecode就直接能上手的地步
+- 熟读Android SDK 
 - Activity系列
 - Service 系列
-
-# 熟读JAVA SDK
-
-# 熟读常用类库SDK
-
-
-# ========= NOTE ===========
-每天看哪个类需要记录下来循序渐进，有规律复习
+- 熟读JAVA SDK
+- 熟读常用类库SDK
 
 # 2015-09-06
 Service 
 - bound Service
 - DreamService
 
-
-
 # read opensource project 
-https://github.com/DrKLO/Telegram
+- https://github.com/DrKLO/Telegram
 
-# xml 布局中layout_width layout_height，这些属性是从哪儿拿到的。?
+# Core knowlege
+- xml 布局中layout_width layout_height，这些属性是从哪儿拿到的
+- view 的onclick 事件是如何分发的
 
-
-# view 的onclick 事件是如何分发的。?????
-
-
-# proandroid
+# Blog 
 https://github.com/tangqi92/Android-Tips
-
 
 # action bar 
 http://stackoverflow.com/questions/22192291/how-to-change-the-status-bar-color-in-android
+
+
+
+## 需要熟悉的类
+- Activity
+- Fragment
+- Service
+- Spinner
+- EventBus
+
+## 关于自定义view
+- 再次使用 spinner 引起的思考
+上午写了一个spinner 发现不查一些资料自己写不出来，另外关于adapter 自己的理解也不是很深刻。
+于是乎我决定重新研究一下view 控件这大块---->> 一直到自定义view 自己炉火纯青了。
+
+然后我打算重新在看一遍各个控件。同时写下自己的笔记。就用cheat 写。
+
+
+今天使用EventBus https://github.com/greenrobot/EventBus
+发现除了greenrobot 提供的EventBus之外 google 也提供了一个Eventbus guava-15.jar 中。
+
+- 重新学习view控件这次尽量过程直接通过查看源码，和少量的官方文档。
+
+## material design spinner
+官方的spinner太难用了，并且设置样式也不好设置，因此有了这个库。
+
+# 方法论
+- 每天看哪个类需要记录下来循序渐进，有规律复习
+- 学习能力读源码来学习的能力。

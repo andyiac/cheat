@@ -1,19 +1,9 @@
 # todo list & todo command
 # docker 使用docker 搭建一个nodejs镜像每次访问都能返回抓取特定网站的数据
 
-
-
-
-
-
-
-
-
-
-
-
-
-#####################################################
+--------------------------------------------------
 # todo command
-#####################################################
 todo -A # list all todo ,incloud which is done
+tdr 	# delete item
+tda num # add a new todo
+tdd num # Mark the specified items as being done.
