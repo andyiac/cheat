@@ -66,3 +66,12 @@ git log --graph --pretty=oneline --abbrev-commit
 # Git 取消跟踪某个文件
 git rm --cached FILENAMR
 git rm --cached -r DIR					# 取消跟踪某个目录
+
+# remove origin url
+git remote remove origin
+ 
+# add  existing repository a remote url
+git remote add origin https://github.com/andyiac/XXX.git
+
+# 自定义你喜欢的编辑器，可选
+git config --global core.editor vim

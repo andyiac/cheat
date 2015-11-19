@@ -1,40 +1,154 @@
-# my ideas 
+# I D E A S 
 
-# githubranking
-  github 上项目排名
-  人物排名 这个项目是做人物排名的https://github.com/vdaubry/github-awards.git
+当你的才华还撑不起你的梦想，滚去写代码吧！
 
-
-# json-server
-  https://github.com/typicode/json-server.git 
+andyiac 写库的最大特点是单个可以不用导包直接把类复制过来就用.
 
 
-# json-key
-  json-key是一个网页程序，她可以将你的RESTful api 的JSON 字典中提取出key。方便你写自己的bean
+### GitHot (githubranking)
+- github 上项目排名
+- 人物排名 这个项目是做人物排名的https://github.com/vdaubry/github-awards.git
+- 这个项目后来发展成了GitHot  
+- 不仅包括用户排名，同时还有流行项目排名，github trending
 
+### Github上那些牛X的组织怎么整合起来
+- github.com/githot
 
-# 树莓派项目 
-  树莓派每天下载自己在家想推送的视频，
-  可以新建一个git仓库每次推送上去下载地址再不同文件中
-  树莓派就会下载响应的内容，视频音频或者是网页新闻
+### json-server
+- https://github.com/typicode/json-server.git 
 
+### json-key
+- json-key是一个网页程序，她可以将你的RESTful api 的JSON 字典中提取出key。方便你写自己的bean
 
-# cheat pro 
-  优化cheat命令 使其更适合自己
+### 树莓派项目 
+树莓派每天下载自己在家想推送的视频，
 
+- 可以新建一个git仓库每次推送上去下载地址再不同文件中
+- 树莓派就会下载响应的内容，视频音频或者是网页新闻
+- 结合RSS阅读器，每日推送不同的文章，然后机器人自动读和标记，可以对话的那种
 
-# 加密
-  加密目录以及目录里边内容的程序
-  - 可以加密目录或者单独的文件
-  - 可以设置账户网络同步
-  - 支持多个平台
+### cheat pro 
+优化cheat命令 使其更适合自己
 
-# Android sdk api
-  可以再手机上查看api的APP
+- 增加tab 补全
+- 增加markdown 语法高亮
 
+### 加密
+znote
 
-# nodejs android api APP
-  nodejs 4.0 官方提供了一个文件的json接口，这将是一个优美的nodejs api APP
+- 加密目录以及目录里边内容的程序
+- 可以加密目录或者单独的文件
+- 可以设置账户网络同步
+- 支持多个平台
 
-  
+### Android sdk api
+可以再手机上查看api的APP
+
+### nodejs android api APP
+nodejs 4.0 官方提供了一个文件的json接口，这将是一个优美的nodejs api APP
+
+### zebook
+提升英语能力的阅读APP
+
+- http://www.zhihu.com/question/20364185/answer/68330933 
+- https://github.com/liuguangqiang/shuba 有个哥们做了书吧app
+
+### 帮助技术学英语
+这个思路不错
+
+### scientificamerican
+科学美国人
+    
+- http://www.scientificamerican.com/podcast/episode/
+
+### 搜集所有的gitbook并以优雅的方式展现出来
+
+### 照片应用管理
+快速管理照片 的app
+
+- https://github.com/CodeFalling/RecyclerViewSwipeDismiss
+- https://github.com/DaoKunGitHub/NiceAppDemo
+- 侧栏有文件夹管理
+- https://github.com/liuguangqiang/SwipeBack 删除进图提示
+- https://github.com/yueban/DraggedViewPager 实现了viewpager效果
+
+### linux or mac 同步两个文件夹
+比如我要讲 .cheat 下的文件夹 同步到我博客仓库目录下面的 _post 目录下
+并且是双向同步
+
+### swift gank.io iOS app
+swift study exercise
+
+### Cool RSS Reader zReader
+RSS Reader in Material design
+- 可以跟zebook 结合在一起
+- 效果使用google chrome Android APP 那种
+- 订阅android weekly cn 内容
+
+### AndroidWeekly.net
+AndroidWeekly Android client 
+- AndroidWeekly 上的文章都很优质，没有一个好的APP
+- VPN是否能提供，将内容抓取到本地服务器，
+- 高仿大象公馆APP
+- androidweekly.cn
+
+### Zhuanglan
+知乎专栏app 
+- 已经有一个哥们写了一个app https://github.com/bxbxbai/ZhuanLan.git 但是体验太差了(话说这个哥们写了一个common挺有意思)
+
+### TimeTable 
+规划你一天的时间，作息时间工作时间，上网浏览时间我现在急需这么一个时间管理软件，自己的时间规划的太差了。
+
+- 作息时间管理
+- 工作休息时间管理
+- 每天固定做什么管理
+- 类似以前上学时候的课程表 
+
+### TimeTable2 
+- 规划一年的时间
+- 一年365甜每天都有一个页面
+- 然后按照月为单位分类
+- 每个月的参照chrome 的设计。
+- 可以添加生日提醒
+- 可以添加闹钟提醒
+
+### Znotes
+- 包含GTD功能
+- markdown
+- 每月导出HTML
+- 每年导出HTML
+
+### markdown2json
+使用nodejs 编写一个 markdown 和json 文件相互转换的应用
+
+### 通用的插件效果
+- 各种加载效果 https://github.com/81813780/AVLoadingIndicatorView
+
+### 底部导航 自定义view
+- Jake 大神一个ActionBarSherlock 就能火遍全球，自己写一个底部导航试一下看看能不能火。
+
+### 站在Android角度的Key-Value 数据库
+- SharedPrefrences 是kv形式但是他的效率有点儿略低
+
+### Vim Markdown 插件
+- 支持vim
+
+### blog.andyiac.com (done 参考github.com/andyiac/androiddevlibs)
+- Bootstrap 附加导航（Affix）插件
+
+### Android hot/popular libs
+- 收集整理流行的Android轮子
+- cheat androidhotlibs
+
+### com.andyiac.common
+- 一些短小精悍的common工具
+- 包名称尽量要小
+- weiget log toast utils cmd task KVdb DB Network download md5 
+- widget  上拉刷新 参考 https://github.com/CoderMJLee/MJRefresh
+- https://github.com/Trinea/android-common
+- https://github.com/jingle1267/android-utils
+
+### KVDB
+Android kv 数据库可以写成库最简洁的kv库使用方法。
+- 支持加密 方法
 

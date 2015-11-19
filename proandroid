@@ -1,6 +1,15 @@
 # PRO ANDROID
 Android进阶笔记和思考随录
 
+# 关注的方向
+- 确定自己要搞哪几个方向然后孜孜不倦(不要关注不该关注的地方,不然每天会浪费大量的时间)
+- Custom view
+- db
+- NetWork 
+
+# 进阶建议
+- 任玉刚的学习路线指南: http://blog.csdn.net/singwhatiwanna/article/details/49560409 
+
 # 要达
 - 到不用查文档的地步直接翻翻SDK中的sourcecode就直接能上手的地步
 - 熟读Android SDK 
@@ -27,7 +36,8 @@ https://github.com/tangqi92/Android-Tips
 # action bar 
 http://stackoverflow.com/questions/22192291/how-to-change-the-status-bar-color-in-android
 
-
+# targetSdkVersion 
+targetSdkVersion 22
 
 ## 需要熟悉的类
 - Activity
@@ -55,3 +65,12 @@ http://stackoverflow.com/questions/22192291/how-to-change-the-status-bar-color-i
 # 方法论
 - 每天看哪个类需要记录下来循序渐进，有规律复习
 - 学习能力读源码来学习的能力。
+- 确定自己要搞哪几个方向然后孜孜不倦(不要关注不该关注的地方,不然每天会浪费大量的时间)
+
+### 资源
+- [这个资源整理的不错](http://www.jianshu.com/p/1af12e27c2e8)
+- [androidweekly](http://androidweekly.net/)
+
+
+### 有待解决的问题
+- drawable 的操作
