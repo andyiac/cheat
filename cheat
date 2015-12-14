@@ -8,3 +8,8 @@ https://github.com/chrisallenlane/cheat
 - markdown style
 - hight light 
 - 支持提示补全功能
+
+## set EDITOR enviroment 
+set EDITOR to .zshrc 
+export EDITOR="vim"
+

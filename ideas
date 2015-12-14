@@ -4,7 +4,6 @@
 
 andyiac 写库的最大特点是单个可以不用导包直接把类复制过来就用.
 
-
 ### GitHot (githubranking)
 - github 上项目排名
 - 人物排名 这个项目是做人物排名的https://github.com/vdaubry/github-awards.git
@@ -71,6 +70,7 @@ nodejs 4.0 官方提供了一个文件的json接口，这将是一个优美的no
 - 侧栏有文件夹管理
 - https://github.com/liuguangqiang/SwipeBack 删除进图提示
 - https://github.com/yueban/DraggedViewPager 实现了viewpager效果
+- https://github.com/DavidWangTM/DWCorePhoto_Android
 
 ### linux or mac 同步两个文件夹
 比如我要讲 .cheat 下的文件夹 同步到我博客仓库目录下面的 _post 目录下

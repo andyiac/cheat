@@ -32,8 +32,15 @@ git push origin master
 # To push to a specified repository:
 git push git@github.com:username/project.git
 
+# To push a tag 
+git push origin v1.1
+
 # To delete the branch "branch_name"
 git branch -D branch_name
+
+# To delete the remote branch 
+git push origin :branch-name
+冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
 
 # To see who commited which line in a file
 git blame filename
