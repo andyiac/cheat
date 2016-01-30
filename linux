@@ -119,3 +119,10 @@ cat a.txt >> b.txt
 cat b.txt
 aaaa
 bbbb
+
+# install git gui 
+sudo apt get install git gui
+# git gui
+start git gui
+$ git gui
+
