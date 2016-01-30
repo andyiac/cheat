@@ -126,3 +126,6 @@ sudo apt get install git gui
 start git gui
 $ git gui
 
+# sound
+pavucontrol
+
