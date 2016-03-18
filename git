@@ -32,6 +32,12 @@ git push origin master
 # To push to a specified repository:
 git push git@github.com:username/project.git
 
+# To add a tag 
+git tag -a v0.1.1 -m " first release "
+
+# To show a tag 
+git show v0.1.1
+
 # To push a tag 
 git push origin v1.1
 

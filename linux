@@ -129,3 +129,6 @@ $ git gui
 # sound
 pavucontrol
 
+# 查看当下目录大小
+df -h
+
