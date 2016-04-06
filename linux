@@ -132,3 +132,9 @@ pavucontrol
 # 查看当下目录大小
 df -h
 
+# 复制到粘贴板 pbcopy
+pwd | pbcopy
+
+# 冲粘贴板粘贴
+pbpaste
+
