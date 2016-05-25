@@ -88,3 +88,7 @@ git remote add origin https://github.com/andyiac/XXX.git
 
 # 自定义你喜欢的编辑器，可选
 git config --global core.editor vim
+
+# https 方式记住密码 
+git config --global credential.helper store
+

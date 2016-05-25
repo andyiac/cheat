@@ -152,3 +152,5 @@ AndroidWeekly Android client
 Android kv 数据库可以写成库最简洁的kv库使用方法。
 - 支持加密 方法
 
+### 可索引单页html文档
+- https://github.com/tianmajs/tianshu
