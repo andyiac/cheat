@@ -1,94 +1,93 @@
-# To set your identify:
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+01| # To set your identify:
+01| git config --global user.name "John Doe"
+01| git config --global user.email johndoe@example.com
 
-# To set your editor:
-git config --global core.editor emacs
+02| # To set your editor:
+02| git config --global core.editor emacs
 
-# To enable color:
-git config --global color.ui true
+03| # To enable color:
+03| git config --global color.ui true
 
-# To stage all changes for commit:
-git add --all
+04| # To stage all changes for commit:
+04| git add --all
 
-# To commit staged changes
-git commit -m "Your commit message"
+05| # To commit staged changes
+05| git commit -m "Your commit message"
 
-# To edit previous commit message
-git commit --amend
+06| # To edit previous commit message
+06| git commit --amend
 
-# To removed staged and working directory changes
-git reset --hard
+07| # To removed staged and working directory changes
+07| git reset --hard
 
-# To remove untracked files
-git clean -f -d
+08| # To remove untracked files
+08| git clean -f -d
 
-# To remove untracked and ignored files
-git clean -f -d -x
+09| # To remove untracked and ignored files
+09| git clean -f -d -x
 
-# To push to the tracked master branch:
-git push origin master
+10| # To push to the tracked master branch:
+10| git push origin master
 
-# To push to a specified repository:
-git push git@github.com:username/project.git
+11| # To push to a specified repository:
+11| git push git@github.com:username/project.git
 
-# To add a tag 
-git tag -a v0.1.1 -m " first release "
+12| # To add a tag 
+12| git tag -a v0.1.1 -m " first release "
 
-# To show a tag 
-git show v0.1.1
+13| # To show a tag 
+13| git show v0.1.1
 
-# To push a tag 
-git push origin v1.1
+14| # To push a tag 
+14| git push origin v1.1
 
-# To delete the branch "branch_name"
-git branch -D branch_name
+15| # To delete the branch "branch_name"
+15| git branch -D branch_name
 
-# To delete the remote branch 
-git push origin :branch-name
-冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
+16| # To delete the remote branch 
+16| git push origin :branch-name
+16| 冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
 
-# To see who commited which line in a file
-git blame filename
+17| # To see who commited which line in a file
+17| git blame filename
 
-# To sync a fork with the master repo:
-git remote add upstream git@github.com:name/repo.git    # Set a new repo
-git remote -v                                           # Confirm new remote repo
-git fetch upstream                                      # Get branches
-git branch -va                                          # List local - remote branches
-git checkout master                                     # Checkout local master branch
-git checkout -b new_branch                              # Create and checkout a new branch
-git merge upstream/master                               # Merge remote into local repo
-git show 83fb499                                        # Show what a commit did.
-git show 83fb499:path/fo/file.ext                       # Shows the file as it appeared at 83fb499.
-git diff branch_1 branch_2                              # Check difference between branches
-git log                                                 # Show all the commits
-git status                                              # Show the changes from last commit
+18| # To sync a fork with the master repo:
+18| git remote add upstream git@github.com:name/repo.git    # Set a new repo
+18| git remote -v                                           # Confirm new remote repo
+18| git fetch upstream                                      # Get branches
+18| git branch -va                                          # List local - remote branches
+18| git checkout master                                     # Checkout local master branch
+18| git checkout -b new_branch                              # Create and checkout a new branch
+18| git merge upstream/master                               # Merge remote into local repo
+18| git show 83fb499                                        # Show what a commit did.
+18| git show 83fb499:path/fo/file.ext                       # Shows the file as it appeared at 83fb499.
+18| git diff branch_1 branch_2                              # Check difference between branches
+18| git log                                                 # Show all the commits
 
-# install git gui
-apt-get install git gui
+19| # ubuntu install git gui
+19| apt-get install git gui
 
-# checkout remote branch
-git branch -a						
-git checkout -b <local> <remote>/<branch>	
-git fetch origin 
+20| # checkout remote branch
+20| git branch -a						
+20| git checkout -b <local> <remote>/<branch>	
+20| git fetch origin 
 
-# git log with graph
-git log --graph --pretty=oneline --abbrev-commit
+21| # git log with graph
+21| git log --graph --pretty=oneline --abbrev-commit
 
-# Git 取消跟踪某个文件
-git rm --cached FILENAMR
-git rm --cached -r DIR					# 取消跟踪某个目录
+22| # Git 取消跟踪某个文件
+22| git rm --cached FILENAMR
+22| git rm --cached -r DIR					# 取消跟踪某个目录
 
-# remove origin url
-git remote remove origin
+23| # remove origin url
+23| git remote remove origin
  
-# add  existing repository a remote url
-git remote add origin https://github.com/andyiac/XXX.git
+24| # add  existing repository a remote url
+24| git remote add origin https://github.com/andyiac/XXX.git
 
-# 自定义你喜欢的编辑器，可选
-git config --global core.editor vim
+25| # 自定义你喜欢的编辑器，可选
+25| git config --global core.editor vim
 
-# https 方式记住密码 
-git config --global credential.helper store
+26| # https 方式记住密码 
+26| git config --global credential.helper store
 
