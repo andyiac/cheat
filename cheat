@@ -1,15 +1,15 @@
+my own cheat 
+---
 
-# my own cheat 
+01 ## cheat
+01 https://github.com/chrisallenlane/cheat 
 
-## cheat
-https://github.com/chrisallenlane/cheat 
+02| ## new feature
+02| - markdown style
+02| - hight light 
+02| - 支持提示补全功能
 
-## new feature
-- markdown style
-- hight light 
-- 支持提示补全功能
-
-## set EDITOR enviroment 
-set EDITOR to .zshrc 
-export EDITOR="vim"
+03| ## set EDITOR enviroment 
+03| set EDITOR to .zshrc 
+03| export EDITOR="vim"
 
